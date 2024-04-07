@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #757597;
+    margin: 0;
+    padding: 0;
+}
+
+#conteudo {
+    max-width: 800x;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(151, 53, 53, 0.1);
+    color: #960d19;
+}
+
+h1 {text-align: center;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+    text-indent: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
