@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clientes</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<a href="menu.html" class="back-button">&lt;</a>
+<h2>Lista de Clientes</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>CPF/CNPJ</th>
+            <th>Telefone</th>
+            <th>Endereço</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>001</td>
+            <td>João da Silva</td>
+            <td>123.456.789-00</td>
+            <td>(11) 1234-5678</td>
+            <td>Rua Exemplo, 123</td>
+            <td><button class="button" onclick="window.location.href='editar_cliente.html'">Editar</button></td>
+            <td><button class="button">Excluir</button></td>
+        </tr>
+    </tbody>
+</table>
+<div class="button-cadastro">
+ <button class="button" onclick="window.location.href='cadastro_cliente.html'">Cadastrar</button>
+</div>
+</body>
+</html>

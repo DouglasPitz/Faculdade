@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #7b1fa2; /* Cor alterada para roxo */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  input[type="submit"]:hover {
+    background-color: #5e35b1; /* Cor alterada para roxo mais escuro no hover */
+  }
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7b1fa2; /* Cor alterada para roxo */
+    color: #fff;
+    border: 2px solid #7b1fa2; /* Cor da borda igual à cor de fundo para manter a aparência arredondada */
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  .button-container {
+    display: inline-block; /* Garante que o contêiner se comporte como um bloco inline */
+    padding: 10px 20px;
+    color: #fff; 
+    border-radius: 10px;
+    text-align: right; /* Alinha o texto à direita */
+    text-decoration: none;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+  }  
+  .button-cadastro {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7b1fa2; /* Cor alterada para roxo */
+    color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+    transition: background-color 0.3s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .button-voltar {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff; /* Cor do texto branco */
+    border: none; /* Remover borda */
+    margin: 2px;
+    transition: background-color 0.3s;
+    position: absolute;
+    left: 5%;
+    transform: translateX(-50%);
+  }
+
+
+
+  .button:hover {
+    background-color: #5e35b1; /* Cor alterada para roxo mais escuro no hover */
+  }
+  h2 {
+    text-align: center; /* Centralizar o texto horizontalmente */
+  }
+  p3 {
+    text-align: center; /* Centralizar o texto horizontalmente */
+  }
+
+.menu {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.menu button {
+    padding: 50px 50px;
+    margin: 10px;
+    border: 2px solid #7a6cf7;
+    border-radius: 15px;
+    background-color: #7a6cf7;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.menu button:hover {
+    background-color: #7be2cc;
+}
+
+.welcome-message {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.menu-columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-column {
+    flex: 0 1 50%; /* Ajuste a largura conforme necessário */
+    margin: 10px;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+.menu-bottom-options {
+    margin-top: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #5e35b1;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #5e35b1;
+    color: white;
+}

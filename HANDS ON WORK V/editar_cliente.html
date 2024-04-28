@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editar Cliente</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</style>
+</head>
+<body>
+<div class="container">
+    <a href="cliente.html" class="back-button">&lt;</a>
+    <h2>Editar Cliente</h2>
+    <form action="cliente.html" method="POST">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" value="001" readonly>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="João da Silva">
+        <label for="cpf">CPF/CNPJ:</label>
+        <input type="text" id="cpf" name="CPF/CNPJ" value="123.456.789-00">
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" value="(11) 1234-5678">
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" value="Rua Exemplo, 123">
+        <div class="button-container">
+            <button class="button" type="submit">Salvar</button>
+            <button class="button" type="submit">Cancelar</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

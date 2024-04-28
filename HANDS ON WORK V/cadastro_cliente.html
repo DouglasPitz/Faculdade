@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastrar cliente</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="cliente.html" class="back-button">&lt;</a>
+        <h2>Cadastrar cliente</h2>
+        <form id="cadastroForm" action="cliente.html" method="POST" onsubmit="window.location.href='cliente.html'">
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" name="codigo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="cpf">CPF/CNPJ:</label>
+            <input type="text" id="cpf" name="CPF/CNPJ">
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone">
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+            <div class="button-container">
+                <button class="button" type="submit">Salvar</button>
+                <button class="button" type="submit">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    </body>
+    </html>
